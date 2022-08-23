@@ -17,11 +17,10 @@ export default function Mobilemenu({isToggled, handleOnClick}) {
                         </div>
                         <div className="menu_list">
                             <ul className="transition_link">
-                                <li onClick={() => handleOnClick(0)}><a href="#home">Home</a></li>
-                                <li onClick={() => handleOnClick(1)}><a href="#about">About</a></li>
-                                <li onClick={() => handleOnClick(2)}><a href="#portfolio">Portfolio</a></li>
-                                <li onClick={() => handleOnClick(3)}><a href="#news">News</a></li>
-                                <li onClick={() => handleOnClick(4)}><a href="#contact">Contact</a></li>
+                                <li onClick={() => handleOnClick(0)}><a href="#home">Inicio</a></li>
+                                <li onClick={() => handleOnClick(1)}><a href="#about">Sobre nosotros</a></li>
+                                <li onClick={() => handleOnClick(2)}><a href="#portfolio">Nuestros proyectos</a></li>
+                                <li onClick={() => handleOnClick(4)}><a href="#contact">Contacto</a></li>
                             </ul>
                         </div>
                         <div className="social">
@@ -33,9 +32,7 @@ export default function Mobilemenu({isToggled, handleOnClick}) {
                                 <li><a href="#"><img className="svg" src="img/svg/social/tik-tok.svg" alt="" /></a></li>
                             </ul>
                         </div>
-                        <div className="copyright">
-                            <p>Copyright © 2022</p>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
