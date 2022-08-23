@@ -8,7 +8,7 @@ export default function Header({handleOnClick, ActiveIndex}) {
             {/* HEADER */}
             <div className="cavani_tm_header">
                 <div className="logo">
-                    <a href="#"><img src="img/logo/dark.png" alt="" /></a>
+                <h1>GOODCAM</h1>
                 </div>
                 <div className="menu">
                     <ul className="transition_link">

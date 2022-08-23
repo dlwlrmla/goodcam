@@ -39,7 +39,7 @@ export default function Home() {
       <Layout>
         <Modalbox />
         <Header handleOnClick={handleOnClick} ActiveIndex={ActiveIndex} />
-        <LeftRightBar />
+         <LeftRightBar />
         <TopBar toggleTrueFalse={toggleTrueFalse} isToggled={isToggled} />
         <Mobilemenu toggleTrueFalse={toggleTrueFalse} isToggled={isToggled} handleOnClick={handleOnClick} />
 
